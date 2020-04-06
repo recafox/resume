@@ -1,0 +1,20 @@
+@mixin border{
+    border:1px solid $white;
+};
+
+@mixin flex-center{
+    align-items: center;
+    justify-content: center;
+};
+
+@mixin btn-hover{
+    :hover{
+        @content
+    }
+};
+
+@mixin mobile{
+    @media(max-width: 414px){
+        @content
+    }
+}

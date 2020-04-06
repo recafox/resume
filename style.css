@@ -1,0 +1,406 @@
+/* CSS reset with box-sizing fix */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 0.75rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.p-4 {
+  padding: 1.25rem;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+.pl-2 {
+  padding-left: 0.75rem;
+}
+
+.pl-3 {
+  padding-left: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1.25rem;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.75rem;
+}
+
+.pr-3 {
+  padding-right: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.75rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.75rem;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.5rem;
+}
+
+.font-l {
+  font-size: 1.5rem;
+}
+
+.font-m {
+  font-size: 1.25rem;
+}
+
+.text-primary {
+  color: #392F5A;
+}
+
+.text-secondary {
+  color: #F092DD;
+}
+
+.text-info {
+  color: #A8C7BB;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.border {
+  border: 1px solid white;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.justify-content-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-self-end {
+  -ms-grid-column-align: self-end;
+      justify-self: self-end;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.btn-l {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #392F5A;
+}
+
+.btn-secondary {
+  background-color: #ea65cf;
+  color: white;
+}
+
+.btn-info {
+  background-color: #89b3a3;
+  color: white;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #392F5A;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrapper .intro-right .link {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper .intro-right .link:hover {
+  color: #A8C7BB;
+}
+
+@media (max-width: 414px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .intro {
+    display: block;
+  }
+  .wrapper .intro .intro-left, .wrapper .intro .intro-right {
+    width: 100%;
+  }
+}
+
+.wrapper .name-ch {
+  font-size: 5rem;
+  letter-spacing: 1.5rem;
+}
+
+.wrapper .name-eng {
+  font-size: 3rem;
+  letter-spacing: 0.75rem;
+}
+
+.description {
+  line-height: 1.25rem;
+  letter-spacing: 0.2rem;
+}
+
+.skills .work-btn {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.skills .work-btn:hover {
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+  cursor: pointer;
+  background-color: #e438c1;
+}
+
+.other p {
+  line-height: 1.25rem;
+}
+
+@media (max-width: 414px) {
+  .other .language-container .language {
+    border: none;
+  }
+}
+
+.other .language-container .language-btn {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.other .language-container .language-btn:hover {
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+  cursor: pointer;
+  background-color: #6a9f8a;
+}
+
+@media (max-width: 414px) {
+  .other .language-container {
+    display: block;
+  }
+  .other .language-container .language {
+    width: 100%;
+  }
+}
+
+i {
+  color: white;
+}
+
+i:hover {
+  color: #A8C7BB;
+}
+
+.container {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

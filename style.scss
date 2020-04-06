@@ -1,0 +1,98 @@
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_mixin.scss';
+@import '_utils.scss';
+
+
+.wrapper{
+    width: 1000px;
+    margin:0 auto;
+    background-color: $primary;
+    font-family: $font;
+    .intro-right .link{
+        text-decoration: none;
+        color: $white;
+        &:hover{
+            color:$info;
+        }
+    }
+    @include mobile{
+        width:100%;
+
+        .intro{
+            display: block;
+            .intro-left, .intro-right{
+                width:100%;
+            }
+        }
+    }
+
+
+
+    .name-ch{
+        font-size: 5rem;
+        letter-spacing: 1.5rem;
+    }
+    .name-eng{
+        font-size: 3rem;
+        letter-spacing: 0.75rem;
+    }
+
+}
+
+.description{
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+.skills{
+    .work-btn{
+        transition: 0.2s;
+    }
+    .work-btn:hover{
+        transition: 0.05s;
+        cursor: pointer;
+        background-color: darken($secondary, 20%);
+    }
+}
+
+.other{
+    p{
+        line-height: $line-height;
+    }
+    .language-container{
+        .language{
+            @include mobile{
+                border:none;
+            }
+        }
+            .language-btn{
+                transition: 0.2s;
+                
+                &:hover{
+                    transition: 0.05s;
+                    cursor: pointer;
+                    background-color: darken($info, 20%);
+                }
+            }
+        @include mobile{
+            display: block;
+            .language{
+                width:100%;
+            }
+        }
+    }
+}
+
+i{
+    color:$white;
+    &:hover{
+        color: $info;
+    }
+}
+.container{
+    width:100%;
+    padding: 1rem;
+    color: white;
+
+}

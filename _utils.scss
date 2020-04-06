@@ -1,0 +1,205 @@
+h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+.p-1{
+    padding:$p-1;
+}
+
+.p-2{
+    padding: $p-2;
+}
+
+.p-3{
+    padding:$p-3;
+}
+
+.p-4{
+    padding: $p-4;
+}
+
+.pl-1{
+    padding-left:$p-1;
+}
+
+.pl-2{
+    padding-left:$p-2;
+}
+.pl-3{
+    padding-left:$p-3;
+}
+.pl-4{
+    padding-left:$p-4;
+}
+
+.pr-1{
+    padding-right:$p-1;
+}
+
+.pr-2{
+    padding-right:$p-2;
+}
+.pr-3{
+    padding-right:$p-3;
+}
+.pr-4{
+    padding-right:$p-4;
+}
+
+.mt-1{
+    margin-top: $m-1;
+}
+
+.mt-2{
+    margin-top: $m-2;
+}
+.mt-3{
+    margin-top: $m-3;
+}
+.mt-4{
+    margin-top: $m-4;
+}
+.mt-5{
+    margin-top: $m-5;
+}
+
+
+.ml-1{
+    margin-left: $m-1;
+}
+
+.ml-2{
+    margin-left: $m-2;
+}
+.ml-3{
+    margin-left: $m-3;
+}
+.ml-4{
+    margin-left: $m-4;
+}
+.ml-5{
+    margin-left: $m-5;
+}
+
+
+.mr-1{
+    margin-right: $m-1;
+}
+
+.mr-2{
+    margin-right: $m-2;
+}
+.mr-3{
+    margin-right: $m-3;
+}
+.mr-4{
+    margin-right: $m-4;
+}
+.mr-5{
+    margin-right: $m-5;
+}
+
+
+.font-l{
+    font-size: $font-l;
+}
+
+.font-m{
+    font-size: $font-m;
+}
+
+.text-primary{
+    color: $primary;
+}
+.text-secondary{
+    color: $secondary;
+}
+.text-info{
+    color: $info;
+}
+.text-white{
+    color: $white;
+}
+.text-black{
+    color: $black;
+}
+
+.border{
+    @include border;
+}
+.border-right{
+    border-right:1px solid $white;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-self-end{
+    justify-self: self-end;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.col-6{
+    width: 50%
+}
+
+.col-4{
+    width:33.33333%;
+}
+
+.btn{
+    border-radius: 0.25rem;
+    padding: 0.3rem 0.5rem;
+    border:none;
+    font-family: $font;
+}
+
+.btn-l{
+    font-size: $font-m;
+}
+
+.btn-primary{
+    background-color: $primary;
+}
+
+.btn-secondary{
+    background-color: darken($secondary, 10%);
+    color:$white;
+}
+.btn-info{
+    background-color: darken($info, 10%);
+    color:$white;
+}
