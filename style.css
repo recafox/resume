@@ -58,6 +58,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 500;
@@ -291,17 +295,45 @@ h4 {
 }
 
 .btn-primary {
-  background-color: #392F5A;
+  background-color: #bab1d7;
+  color: white;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.btn-primary:hover {
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+  cursor: pointer;
+  background-color: #7f6eb4;
 }
 
 .btn-secondary {
   background-color: #ea65cf;
   color: white;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.btn-secondary:hover {
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+  cursor: pointer;
+  background-color: #e438c1;
 }
 
 .btn-info {
   background-color: #89b3a3;
   color: white;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.btn-info:hover {
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+  cursor: pointer;
+  background-color: #6a9f8a;
 }
 
 .wrapper {
@@ -347,18 +379,6 @@ h4 {
   letter-spacing: 0.2rem;
 }
 
-.skills .work-btn {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.skills .work-btn:hover {
-  -webkit-transition: 0.05s;
-  transition: 0.05s;
-  cursor: pointer;
-  background-color: #e438c1;
-}
-
 .other p {
   line-height: 1.25rem;
 }
@@ -367,18 +387,6 @@ h4 {
   .other .language-container .language {
     border: none;
   }
-}
-
-.other .language-container .language-btn {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.other .language-container .language-btn:hover {
-  -webkit-transition: 0.05s;
-  transition: 0.05s;
-  cursor: pointer;
-  background-color: #6a9f8a;
 }
 
 @media (max-width: 414px) {

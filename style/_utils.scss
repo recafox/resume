@@ -192,14 +192,33 @@ h4{
 }
 
 .btn-primary{
-    background-color: $primary;
+    background-color: lighten($primary, 50%);
+    color:$white;
+    transition: 0.1s;
+    &:hover{
+        transition: 0.05s;
+        cursor: pointer;
+        background-color:lighten($primary, 30%);
+    }
 }
 
 .btn-secondary{
     background-color: darken($secondary, 10%);
     color:$white;
+    transition: 0.1s;
+    &:hover{
+        transition: 0.05s;
+        cursor: pointer;
+        background-color:darken($secondary, 20%);
+    }
 }
 .btn-info{
     background-color: darken($info, 10%);
     color:$white;
+    transition: 0.1s;
+    &:hover{
+        transition: 0.05s;
+        cursor: pointer;
+        background-color:darken($info, 20%);
+    }
 }

@@ -45,16 +45,7 @@
     letter-spacing: $letter-spacing;
 }
 
-.skills{
-    .work-btn{
-        transition: 0.2s;
-    }
-    .work-btn:hover{
-        transition: 0.05s;
-        cursor: pointer;
-        background-color: darken($secondary, 20%);
-    }
-}
+
 
 .other{
     p{
@@ -66,15 +57,7 @@
                 border:none;
             }
         }
-            .language-btn{
-                transition: 0.2s;
-                
-                &:hover{
-                    transition: 0.05s;
-                    cursor: pointer;
-                    background-color: darken($info, 20%);
-                }
-            }
+           
         @include mobile{
             display: block;
             .language{
